@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Team 11 Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src=./media/ada_logo_color.png  alt="ADA" >
+        <div >
+            <a href="./index.html">
+                <img src="./media/logo.png" alt="CodeCommandos">
+            </a>
+        </div>
+        <h1>CodeCommandos Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href=./index.html>Team</a></li>
+            <li><a href=./project.html>Project</a></li>
+            <li><a href=./hoc.html>Hour of Code</a></li>
+            <li><a href=#contact>Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="team">
+        <h1>Welcome to Team 11!</h1>
+        <p> Team 11 consist of 4 different students from ADA university and united here to develop our skills and get better in this field. This team has been set from the Principles of Information Systems instructor Araz Yusubov, and has worked on several different projects. One of them involves working with basic level hardware and understanding them. Later on, we participated in the Hour of Code event, taught students about computer programming, and tried to arouse interest about it. As a result of these projects, we not only advance both practically and mentally but also improve our skill levels in this field.</p>
+        <p style="font-size: 24px;"><b>Team Members</b></p>
+        
+
+        <div>
+            <a href="./Ibrahim.html" style="display: inline-block; margin-right: 20px;">
+                <img src="./media/Ibrahim.png" alt="Ibrahim"><br>Ibrahim Asgarov
+            </a>
+            <a href="./Kanan.html" style="display: inline-block; margin-right: 20px;">
+                <img src="./media/Kanan.png" alt="Kanan" ><br>Kanan Hajiyev
+            </a>
+            <a href="./Urfan.html" style="display: inline-block;margin-right: 20px;">
+                <img src="./media/Urfan.png" alt="Urfan" ><br>Urfan Zeynalov
+            </a>
+            <a href="./Rafig.html" style="display: inline-block; text-align: center;">
+                <img src="./media/Rafig.png" alt="Rafig" ><br>Rafig Isayev
+            </a>
+        </div>
+    <br>
+
+    <footer id="contact" >
+        <h2>Contact Us</h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="error-message"></div>
+    </footer>
+   
+    <script src="script.js"></script>
+</body>

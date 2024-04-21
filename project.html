@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team 11 Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <img src=./media/ada_logo_color.png  alt="ADA" >
+        <div >
+            <a href="./index.html">
+                <img src="./media/logo.png" alt="CodeCommandos">
+            </a>
+        </div>
+        <h1>CodeCommandos Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href=./index.html>Team</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href=./hoc.html>Hour of Code</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id="project">
+        <h2>Website Project</h2>
+        <p>When this project started, our first work was completing the Code Academy courses and get the proper and enough information about creating a basic website with HTML,CSS, and JavaScript. After finishing the courses, Ibrahim Asgarov started to work on website, and created the skeleton of the website. Basically, he created the pages of the website, gave them a design with CSS, and set a form with JavaScript which is "Contact Us". After him, Kanan Hajiyev started to fill the inside of the website with the needed information and media. Adjusted the hypertexts and checked the website if there is any bug or not. Then Urfan Zeynalov created the logo of the website and helped with the design. We faced with lots of problems like bugs or dead hypertexts but fortunately with the help of the course we corrected them and gained practical skills through that. </p>
+    </section>
+
+    <section id="info">
+        <h2>Code Academy Links</h2>
+        <p>In this section you can find our progress in Code Academy</p>
+        <p><i>"It's Never Too Late to Learn" — Malcolm Forbes</i></p>
+        <a href="https://www.codecademy.com/users/IbrahimAsgarov/achievements">Ibrahim Asgarov</a><br><br>
+        <a href="https://www.codecademy.com/users/Knean/achievements">Kanan Hajiyev</a><br><br>
+        <a href="https://www.codecademy.com/users/UrfanZeynalov/achievements">Urfan Zeynalov</a><br><br>
+        <a href="https://www.codecademy.com/users/rafiq19580/achievements">Rafig Isayev</a>
+    </section>
+    <footer id="contact" >
+        <h2>Contact Us</h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="error-message"></div>
+    </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>

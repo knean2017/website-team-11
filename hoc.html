@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Team 11:Hour of Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src=./media/ada_logo_color.png  alt="ADA" >
+        <div >
+            <a href="./index.html">
+                <img src="./media/logo.png" alt="CodeCommandos">
+            </a>
+        </div>
+        <h1>CodeCommandos Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href=./index.html>Team</a></li>
+            <li><a href=./project.html>Project</a></li>
+            <li><a href=./hoc.html>Hour of Code</a></li>
+            <li><a href=#contact>Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="hoc">
+        <h2>Hour of Code</h2>
+        <p> Hour of Code is a global event that organized by Computer Science Education Week and <a href="https://code.org/">Code.org</a> to introduce millions of students to interactive one hour of computer science and computer programming.</p>
+        <p>We, as team 11 also participated at this event in 29 March, and educated school students at School No167 of Baku city.</p>
+        <p style="font-size: 24px;"><b>Here are some photos and video from the event!</b></p>
+        <div class="photo" >
+            <img src=./hocmedia/hoc1.jpg alt="Hour of code1">
+            <img src=./hocmedia/hoc8.jpg alt="Hour of code8">
+            <img src=./hocmedia/hoc7.jpg alt="Hour of code7">
+            <img src=./hocmedia/hoc3.jpg alt="Hour of code3">
+            <img src=./hocmedia/hoc4.jpg alt="Hour of code4">
+            <img src=./hocmedia/hoc5.jpg alt="Hour of code5">
+            <img src=./hocmedia/hoc6.jpg alt="Hour of code6">
+            <img src=./hocmedia/hoc2.jpg alt="Hour of code2">
+            <br>
+            <div class="bigphoto">
+               <img src=./hocmedia/hocall.jpg alt="Hour of code9">
+            </div>
+            <video width="300" controls>
+                <source src="./hocmedia/hocvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <footer id="contact" >
+        <h2>Contact Us</h2>
+        <form id="contact-form" onsubmit="return validateForm()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="error-message"></div>
+    </footer>
+   
+    <script src="script.js"></script>
+    
+</body>

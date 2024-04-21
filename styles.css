@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+a {
+    color: #337ab7;
+    font-size:20px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+h1, h2 {
+    color: #337ab7;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h3 {
+    font-weight: bold;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #337ab7;
+}
+
+
+.member-name {
+    cursor: pointer;
+    color: #337ab7;
+}
+
+.member-name:hover {
+    text-decoration: underline;
+}
+
+.member-details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #337ab7;
+    display: none;
+}
+
+#team {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+#members {
+    background-color: #fff;
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+#hoc, #project, #info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+img:not(header img){
+    width: 200px;
+    height: auto;
+    border: 2px solid #333 ;
+    border-radius: 7px;
+}
+header img {
+    width: 150px;
+    height: auto;
+
+}
+.bigphoto img {
+    width: 500px !important;
+    height: auto;
+}
+
+.photo img {
+    float: middle;
+    margin-right: 10px;
+    width: 250px;
+
+  }
+
+
